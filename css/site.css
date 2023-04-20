@@ -29,8 +29,18 @@ h1 {
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
-  padding: 10px;
-  margin-bottom: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
   border: solid 1px #888;
   background-color: #A3C9A8;
+}
+
+.minor-section .img {
+  float: right; /* Floats the image to the right side of the page */
+  margin: 10px; /* Adds a small margin to the image */
+  padding: 10px; /* Adds padding around the image */
+}
+
+p {
+  text-align: justify; /* Justifies the text in the paragraph */
 }
