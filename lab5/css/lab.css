@@ -7,3 +7,11 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+
+#car {
+  float: right; /* Floats the image to the right side of the page */
+  max-width: 304px;
+  margin-left: 20px;
+}
+
