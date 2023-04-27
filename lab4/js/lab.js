@@ -2,7 +2,7 @@
 // Rock Paper Scissors
 // An implementation of the game
 // Author: Evelyn Fu <efu6@ucsc.edu>
-// Date: April 2024
+// Date: 25 April 2023
 
 // Constants
 

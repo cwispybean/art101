@@ -1,6 +1,24 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+/**
+ * index.js - experimenting with basic JavaScript data types and variables
+ * Author: Evelyn Fu
+ * Date: 27 April 2023
+ **/
+
+// Define Variables
+make = "Toyota";
+model = "Prius";
+color = "Silver";
+year = 2021;
+
+// Calculate
+age = 2023 - year;
+
+// Output
+document.writeln("Make: " + make + "<br>");
+document.writeln("Model: " + model + "<br>");
+document.writeln("Color: " + color + "<br>");
+document.writeln("Year: " + year + "<br>");
+document.writeln("Age: " + age + " years<br>");
 
 // Constants
 
