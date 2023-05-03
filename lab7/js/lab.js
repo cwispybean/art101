@@ -14,8 +14,9 @@ function sortUserName() {
   console.log("nameArray =", nameArray);
 
   //sorting the array
-  var nameSortArray = nameArray.sort();
-  console.log("nameSortArray =", nameSortArray);
+  var nameSortArray = nameArray.sort(function(a, b) {
+    return a.localeCompare(b, undefined, {sensitivity: 'base'});
+  });
 
   //join array back into a string
   var nameSorted = nameSortArray.join('');
