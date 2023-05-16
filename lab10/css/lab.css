@@ -18,6 +18,7 @@ color: #2c254f;
 font-size: 36px;
 text-align: center;
 text-decoration: underline;
+background-image: linear-gradient(to bottom, #A3C9A8, #5b8661);
 }
 
 h2 {
@@ -29,6 +30,11 @@ color: #280419;
 font-size: 18px;
 line-height: 1.5;
 margin-bottom: 10px;
+}
+
+p:hover {
+  color: rgb(233, 185, 255);
+  font-weight: bold;
 }
 
 #output {
