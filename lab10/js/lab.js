@@ -1,23 +1,39 @@
 /**
- * index.js - write functions that take user input and manipulate a string
+ * index.js - experimenting with JS events
  * Author: Evelyn Fu
- * Date: 4 May 2023
+ * Date: 16 May 2023
  **/
 
-// Constants
+// Attach an event listener to your button
+var button = document.getElementById('my-button');
+button.addEventListener('click', function() {
 
-// Functions
+  // Gets the value of your input field
+  var input = document.getElementById('user-name');
+  var userName = input.value;
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
+  // Call the sortUserName() function with the user input and store the result
+  var nameSorted = sortUserName(userName);
+  
+  // Replaces the html in <div id=output> with the results.
+  var outputDiv = document.getElementById('output');
+  outputDiv.innerHTML = nameSorted;
+});
+
+// nameSort() function from lab 7
+function sortUserName(userName) {
+  var nameArray = userName.split('');
+  var nameSortArray = nameArray.sort(function(a, b) {
+    return a.localeCompare(b, undefined, {sensitivity: 'base'});
+  });
+  var nameSorted = nameSortArray.join('');
+  return nameSorted;
 }
 
+// Main
 function main() {
   console.log("Main function started.");
-  // the code that makes everything happen
 }
 
-// let's get this party started
 main();
+
