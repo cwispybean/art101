@@ -5,11 +5,11 @@
   padding: 10px;
   margin-bottom: 10px;
   border: solid 1px #ea8ab0;
-  background-color: #d9cd9e;
+  background-color: #ffc0da;
 }
 
 body {
-  background-image: linear-gradient(#ffd0f7, #d06fc0);
+  background-image: linear-gradient(#d9ffd0, #7fd06f);
   font-family: Monospace, cursive;
 }
 
@@ -19,11 +19,15 @@ h1 {
   font-size: 36px;
   text-align: center;
   text-decoration: underline;
-  background-image: linear-gradient(to bottom, #96afd8, #a077b0);
 }
 
 h2 {
   font-family: "Times New Roman", Times, serif;
+}
+
+h3 {
+  font-family: Monospace, cursive;
+  font-weight: bold;
 }
 
 p {
@@ -36,4 +40,16 @@ p {
 p:hover {
   color: rgb(233, 185, 255);
   font-weight: bold;
+}
+
+/*Lab 13*/
+button {
+  background-color: #fcb3e0;
+  font-family: Monospace;
+}
+
+#output {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 2fr));
+  grid-gap: 10px;
 }
