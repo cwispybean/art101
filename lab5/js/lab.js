@@ -5,30 +5,21 @@
  **/
 
 // Define Variables
-make = "Toyota";
-model = "Prius";
-color = "Silver";
-year = 2021;
+var make = "Toyota";
+var model = "Prius";
+var color = "Silver";
+var year = 2021;
 
 // Calculate
-age = 2023 - year;
+var age = 2023 - year;
 
-// Output
-document.writeln("Make: " + make + "<br>");
-document.writeln("Model: " + model + "<br>");
-document.writeln("Color: " + color + "<br>");
-document.writeln("Year: " + year + "<br>");
-document.writeln("Age: " + age + " years<br>");
-
-// Constants
-
-// Functions
-
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
+// Retrieve Output ID
+var outputDiv = document.getElementById("output");
+outputDiv.innerHTML += "Make: " + make + "<br>";
+outputDiv.innerHTML += "Model: " + model + "<br>";
+outputDiv.innerHTML += "Color: " + color + "<br>";
+outputDiv.innerHTML += "Year: " + year + "<br>";
+outputDiv.innerHTML += "Age: " + age + " years<br>";
 
 function main() {
   console.log("Main function started.");
