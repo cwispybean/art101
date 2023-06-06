@@ -39,6 +39,11 @@ h3:hover {
   font-weight: bold;
 }
 
+p:hover {
+  color: rgb(233, 185, 255);
+  font-weight: bold;
+}
+
 button {
   background-color: #fcb3e0;
   font-family: Monospace;
